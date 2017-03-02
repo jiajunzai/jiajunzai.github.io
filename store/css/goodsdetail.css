@@ -1,0 +1,461 @@
+/*商品详情*/
+
+html,body{
+	width:100%;
+	height:100%;
+}
+
+.container{
+	height: 100%;
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 1.25rem;
+	padding-bottom:1.25rem;
+}
+
+header{
+	width:100%;
+	height: 1.25rem;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 999;
+	box-sizing: border-box;
+	padding: 0 3%;
+}
+
+header a{
+	font-size: 0.375rem;
+	line-height: 1.25rem;
+	font-family:"宋体";
+	float: left;
+}
+
+.menu{
+	width:5.25rem;
+	margin:0 auto; 
+	text-align: content;
+}
+
+.menu a{
+	font-size: 0.375rem;
+	box-sizing: border-box;
+	margin:0 0.3125rem;
+	
+}
+
+.menu a:nth-child(1){
+	color:#ff2150;
+	border-bottom: 1px #ff2150 solid;
+}
+
+.shoppingCart{
+	display: flex;
+	height: 100%;
+	align-items: center;
+	float:right;
+}
+.shoppingCart span{
+	display: inline-block;
+	width: 0.65625rem;
+	height: 0.53125rem;
+	background:url("../img/icon_shopping.png") center 0 no-repeat;
+	background-size: 0.65625rem 0.53125rem;
+	margin-right:0.3125rem;
+	box-sizing: border;
+	position:relative; 
+}
+
+.shoppingCart span i{
+	position:absolute;
+	right:0.0625rem;
+	top:0.0rem;
+	font-size: 0.1875rem;
+	color: #fff;
+}
+.shoppingCart em{
+	display: inline-block;
+	width: 0.546875rem;
+	height: 0.125rem;
+	background:url("../img/icon_diandian_06.png") center 0 no-repeat;
+	background-size: 0.546875rem 0.125rem;
+}
+
+.wrap{
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.content{
+	width: 100%;
+	height: 100%;
+	background: #f7f7f7;
+	
+}
+.content>img{
+	display: block;
+	width: 100%;
+} 
+
+.content>p{
+	display: block;
+	font-size: 0.34375rem;
+	font-weight: bold;
+	line-height: 0.46875rem;
+	color:#333333;
+	padding:0 0.3125rem;
+	padding-top: 0.3125rem;
+	background: #fff;
+}
+
+.price{
+	width: 100%;
+	height: 1.09375rem;
+	box-sizing: border-box;
+	padding:0 0.3125rem; 
+	line-height: 1.09375rem;
+	background: #fff;
+}
+
+.price em{
+	display:block;
+	float: right;
+	font-size: 0.28125rem;
+	color: #7a7a7a;
+}
+
+.price span{
+	font-size: 0.40625rem;
+	color:#ff2150;
+	font-weight: bold;
+}
+
+.price span i{
+	font-size: 0.234375rem;
+	font-weight: normal;
+}
+
+.price span b{
+	font-weight: normal;
+	font-size:0.15625rem;
+	padding:0.03125rem 0.15625rem;
+	background:#ff2150;
+	color:#fff;
+	margin-left: 0.15625rem;
+	
+}
+
+.coupons{
+	width: 100%
+	height: 0.9375rem;
+	box-sizing: border-box;
+	padding: 0 0.3125rem;
+	font-size: 0.34375rem;
+	color:#7a7a7a;
+	line-height:0.9375rem;
+	border-top: 0.015625rem #eeeeee solid;
+	border-bottom: 0.015625rem #eeeeee solid;  
+	background: #fff;
+}
+
+.coupons img{
+	display: block;
+	width: 0.40625rem;
+	height: 0.28125rem;
+	float: left;
+	margin-top: 0.3125rem;
+	margin-right: 0.3125rem;
+}
+
+.coupons i,.size i,.quantity i{
+	display:block;
+	width: 0.1875rem;
+	height: 0.9375rem;
+	float:right;
+	background: url("../img/icon__07.png") 0 center no-repeat;
+	background-size: 0.1875rem 0.28125rem;
+}
+
+.size{
+	width: 100%;
+	height: 0.9375rem;
+	font-size: 0.34375rem;
+	line-height: 0.9375rem;
+	color:#5c5c5c;
+	box-sizing: border-box;
+	padding: 0 0.3125rem;
+	border-top: 0.015625rem #eeeeee solid;
+	border-bottom: 0.015625rem #eeeeee solid;
+	background: #fff;
+	margin-top: 0.15625rem; 
+}
+
+.evaluate{
+	width: 100%;
+	box-sizing: border-box;
+	padding:0 3%;
+	background:#fff;
+	margin-top: 0.15625rem;
+}
+
+.quantity{
+	width: 100%;
+	height: 0.9375rem;
+	font-size: 0.34375rem;
+	line-height: 0.9375rem;
+	color:#5c5c5c;
+	border-bottom: 0.015625rem #eeeeee solid;
+}
+
+.user{
+	width: 100%;
+	height: 1.25rem;
+	font-size: 0.34375rem;
+	line-height: 1.25rem;
+	color: #5c5c5c;
+/*	border-bottom: 0.015625rem #eeeeee solid;*/
+}
+.user img{
+	display:block;
+	float:left;
+	width: 0.828125rem;
+	margin-top: 0.125rem;
+	margin-right: 0.15625rem;
+}
+
+.star{
+	width: 1.875rem;
+	height: 100%;
+	float:right;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap ;
+	 flex-wrap: nowrap ; 
+	 align-items: center;
+}
+.star span{
+	flex: 1;	
+	width: 0.3125rem;
+	height: 0.3125rem;
+	background:url("../img/icon__11.png") center center no-repeat;
+	background-size: 0.28125rem 0.28125rem;
+}
+
+.star-text{
+	box-sizing: border-box;
+}
+
+.star-text>p{
+	font-size: 0.1875rem;
+	font-weight: bold;
+	line-height: 0.546875rem;
+}
+
+.star-text span{
+	display: block;
+	color:#ccc;
+	margin-top: 0.3125rem;
+}
+
+.star-text a{
+	display: block;
+	width: 100%;
+	height: 0.9375rem;
+	text-align:center;
+	line-height: 0.9375rem;
+	border-top: 0.015625rem #ccc solid; 
+	margin-top: 0.3125rem;
+}
+
+
+
+footer{
+	width:100%;
+	height: 1.25rem;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	-webkit-display:flex;
+	 display:flex;
+	 align-items: center; 	
+}
+
+
+footer a{
+	display:block;
+	float: left;
+	width: 1.40625rem;
+	height: 0.9375rem;
+	font-size:0.28125rem;
+	color: #666666;
+	text-align: center;
+	box-sizing: border-box;
+	
+}
+
+footer a:nth-child(1){
+	padding-top:  0.546875rem;
+	border-right: 0.015625rem #eeeeee solid;
+	background:url("../img/icon_1_07.png") center top no-repeat;
+	background-size:0.625rem;
+}
+
+footer a:nth-child(2){
+	padding-top:  0.546875rem;
+	border-right: 0.015625rem #eeeeee solid;
+	background:url("../img/icon_1_09.png") center top no-repeat;
+	background-size:0.625rem;
+}
+
+footer a:nth-child(3){
+	padding-top:  0.546875rem;
+	background:url("../img/icon_1_11.png") center top no-repeat;
+	background-size:0.625rem;
+}
+
+footer a:nth-child(4){
+	width: 2.46875rem;
+	height: 0.90625reml;
+	border:0.015625rem #ff2150 solid;
+	border-radius: 3px;
+	font-size: 0.40625rem;
+	line-height: 0.90625rem;
+	text-align: center;
+	color:#ff2150;
+	margin-left: 0.15625rem;
+}
+
+footer a:nth-child(5){
+	width: 2.46875rem;
+	height: 0.90625reml;
+	border:0.015625rem #ff2150 solid;
+	border-radius: 3px;
+	font-size: 0.40625rem;
+	line-height: 0.90625rem;
+	text-align: center;
+	color:#fff;
+	background: #ff2150;
+	margin-left: 0.46875rem;
+}
+
+
+
+/*尺码点击层*/
+.size-tier{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,0.6);
+	z-index: 9999;
+}
+
+.size-wrap{
+	width: 100%;
+	height: 12.5rem;
+	background:#fff;
+	position: absolute;
+	left:0;
+	bottom:0;
+	box-sizing: border-box;
+	padding:0 3%;
+}
+
+.size-con{
+	width: 100%;
+	height: 2.96875rem;
+	border-bottom: 0.015625rem #eeeeee solid;
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 0.46875rem;
+}
+
+.size-con img{
+	display: block;
+	width: 2.5rem;
+	float: left;
+	margin-right: 0.3125rem;
+}
+.size-con span{
+	display: block;
+	font-size:0.625rem;
+	color:#ff2150;
+	margin-bottom: 0.46875rem
+}
+.size-con p{
+	font-size: 0.1875rem;
+	color:#4e4e4e;
+	line-height: 0.46875rem;
+}
+
+.size-con em{
+	display: 0.46875rem;
+	height: 0.46875rem;
+	font-size: 0.46875rem;
+	position: absolute;
+	top:0.3125rem;
+	right: 0.15625rem;
+	font-weight: bold;
+}
+
+.colour{
+	width: 100%;
+	height: 2.015625rem;
+	border-bottom: 0.015625rem #eee solid;
+}
+.colour p,.size-s p,.amount p{
+	font-size: 0.375rem;
+	line-height: 1.25rem;
+	color: #4e4e4e;
+}
+.colour span,.size-s span{
+	padding:0.15625rem 0.3125rem;
+	background: #ff2150;
+	color: #fff;
+	border-radius: 3px;
+}
+.size-s{
+	width: 100%;
+	height: 2.015625rem;
+	border-bottom: 0.015625rem #eee solid;
+}
+
+.size-s span{
+	padding:0.15625rem 0.3125rem;
+	background: #ccc;
+	color: #4e4e4e;
+	border-radius: 3px;
+}
+
+.size-s span.active,.amount span.active{
+	background: #ff2150;
+}
+
+.amount{
+	width: 100%;
+	height: 2.015625rem;
+}
+
+.amount span{
+	padding: 0.15625rem 0.3125rem;
+	background: #ccc;
+	color: #4e4e4e;
+	border-radius: 3px;
+}
+
+.ok{
+	width: 100%;
+	height: 1.25rem;
+	text-align: center;
+	line-height: 1.25rem;
+	font-size: 0.46875rem;
+	color: #fff;
+	background: #ff2150;
+	position: absolute;
+	left:0;
+	bottom:0;
+}

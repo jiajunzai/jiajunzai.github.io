@@ -1,0 +1,79 @@
+{
+	"0" : {
+		"h4" : "11111111",
+		"red" : "grgr",
+		"span" : "buyao maibuyaoid",
+		"src" : "img/picc02.png",
+		"a" : "img/picc04.png",
+		"b" : "img/picc04.png",
+		"c" : "img/picc04.png",
+		"d" : "img/picc04.png"
+	},
+
+	"1" : {
+		"h4" : "2222222222",
+		"red" : "建同安",
+		"span" : "鬼知道我在干什么",
+		"src" : "img/picc02.png",
+		"a" : "img/picc06.png",
+		"b" : "img/picc06.png",
+		"c" : "img/picc06.png",
+		"d" : "img/picc06.png"
+	},
+
+	"2" : {
+		"h4" : "333333333",
+		"red" : "波波哥",
+		"span" : "js面向对象",
+		"src" : "img/picc02.png",
+		"a" : "img/picc04.png",
+		"b" : "img/picc04.png",
+		"c" : "img/picc04.png",
+		"d" : "img/picc04.png"
+	},
+
+	"3" : {
+		"h4" : "44444444",
+		"red" : "css",
+		"span" : "结构加样式等于完美",
+		"src" : "img/picc02.png",
+		"a" : "img/picc06.png",
+		"b" : "img/picc06.png",
+		"c" : "img/picc06.png",
+		"d" : "img/picc06.png"
+	},
+
+	"4" : {
+		"h4" : "5555555555",
+		"red" : "免费",
+		"span" : "宽带链接，计算网络",
+		"src" : "img/picc02.png",
+		"a" : "img/picc04.png",
+		"b" : "img/picc04.png",
+		"c" : "img/picc04.png",
+		"d" : "img/picc04.png"
+	},
+
+	"5" : {
+		"h4" : "666666666",
+		"red" : "mimi",
+		"span" : "小米随身wifi",
+		"src" : "img/picc02.png",
+		"a" : "img/picc06.png",
+		"b" : "img/picc06.png",
+		"c" : "img/picc06.png",
+		"d" : "img/picc06.png"
+	},
+
+	"6" : {
+		"h4" : "7777777",
+		"red" : "软件",
+		"span" : "事件委托，菜单考试",
+		"src" : "img/picc02.png",
+		"a" : "img/picc04.png",
+		"b" : "img/picc04.png",
+		"c" : "img/picc04.png",
+		"d" : "img/picc04.png"
+	}
+
+}

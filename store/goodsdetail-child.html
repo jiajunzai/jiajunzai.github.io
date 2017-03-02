@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>商品详情子页面</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<script src="js/flexible.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/goodsdetail-child.css">
+
+</head>
+<body>
+
+<div id="tabBox2" class="tabBox">
+	<div class="hd">
+		<ul>
+			<li class="on"><a href="javascript:void(0)">图文详情</a></li>
+			<li class=""><a href="javascript:void(0)">产品参数</a></li>
+			<li class=""><a href="javascript:void(0)">热卖推荐</a></li>
+		</ul>
+	</div>
+	<div class="tempWrap" >
+		<div class="bd">
+			<div class="d1"></div>
+			
+			<div class="d2">
+				<ul>
+					<li><span>袖长</span>七分袖</li>
+					<li><span>销售渠道类型</span>纯电商</li>
+					<li><span>货号</span>1548913</li>
+					<li><span>品牌</span>皇宫婚纱</li>
+					<li><span>礼服裙摆</span>拖尾</li>
+					<li><span>颜色分类</span>白色</li>
+					<li><span>尺码</span>S、M、L、XL、XXL、量身定做</li>
+					<li><span>上市年份</span>2015年冬季</li>
+					<li><span>材质</span>网纱</li>
+				</ul>
+			</div>
+			
+			<div class="d3">
+				<div class="like-list">
+					<ul id="like-ul">
+						<li>
+							<a href="#">
+								<img src="img/pic_hunsha01.png" alt="">
+								<p>高贵塔夫绸抹胸拖尾婚纱</p>
+								<span><i>￥</i>899</span>
+								<s>￥1600</s>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/pic_hunsha01.png" alt="">
+								<p>高贵塔夫绸抹胸拖尾婚纱</p>
+								<span><i>￥</i>899</span>
+								<s>￥1600</s>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/pic_hunsha01.png" alt="">
+								<p>高贵塔夫绸抹胸拖尾婚纱</p>
+								<span><i>￥</i>899</span>
+								<s>￥1600</s>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/pic_hunsha01.png" alt="">
+								<p>高贵塔夫绸抹胸拖尾婚纱</p>
+								<span><i>￥</i>899</span>
+								<s>￥1600</s>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/pic_hunsha01.png" alt="">
+								<p>高贵塔夫绸抹胸拖尾婚纱</p>
+								<span><i>￥</i>899</span>
+								<s>￥1600</s>
+							</a>
+						</li>
+							
+						<li>
+							<a href="#">
+								<img src="img/pic_hunsha01.png" alt="">
+								<p>高贵塔夫绸抹胸拖尾婚纱</p>
+								<span><i>￥</i>899</span>
+								<s>￥1600</s>
+							</a>
+						</li>		
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/TouchSlide.js"></script>
+<script type="text/javascript">
+	TouchSlide( {
+		slideCell:"#tabBox2",	
+	} );
+
+	//设置pannel的高度
+	!function(){
+		var header = document.querySelector(".hd");
+		var bd = document.querySelector(".bd");
+		var div = bd.querySelectorAll("div");
+		var header_h = header.offsetHeight;
+		var win_h = window.innerHeight;
+		var main_h = win_h - header_h;
+
+		div.forEach(function(e,i){
+			e.style.height = main_h + "px";
+		});
+	}();
+
+
+</script>
+</script>	
+</body>
+</html>

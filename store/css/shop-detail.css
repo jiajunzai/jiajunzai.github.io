@@ -1,0 +1,170 @@
+header{
+	height: 1.25rem;
+	-webkit-display: flex;
+	display: flex;
+	padding:0 3%;
+	align-items:center;
+}
+
+header .back{
+	width:0.625rem;
+	height:100%;
+	line-height: 1.25rem;
+	font-size: 0.4062rem;
+	font-family: "SimSun"; 
+}
+
+header form{
+	flex:1;
+	position: relative;
+}
+
+header form input{
+	width: 100%;
+	height: 0.7812rem;
+	border:0;
+	background-color:#f7f7f7;
+	padding-left:5px;
+	box-sizing: border-box;
+	outline:none;
+	border-radius:4px;
+}
+
+header span{
+	display: block;
+	line-height: 1.25rem;
+	width: 0.9375rem;
+	text-align:right;
+	box-sizing: border-box;
+	padding-left: 0.3125rem;
+}
+header span img{
+	display:block;
+	width: 0.546875rem;
+}
+
+.name{
+	width: 100%;
+	height:3.015625rem;
+	background:url("../img/hsop-bg_02.png") center 0 no-repeat;
+	background-size: 100% 3.015625rem;
+	position:relative;
+	box-sizing: border-box;
+	padding-left: 1.71875rem;
+}
+.name >img{
+	display: block;
+	width: 1.09375rem;
+	height: 1.09375rem;
+	position:absolute;
+	left:0.3125rem;
+	bottom: 0.390625rem;
+
+}
+
+.name>h3{
+	position:absolute;
+	top:1.571875rem;
+	color:#333333;
+}
+
+.name>p{
+	position:absolute;
+	top:2.1875rem;
+	color:#333333;
+}
+.name>p span{
+	margin-left:20px;
+}
+
+.collect{
+	width: 1.5625rem;
+	height:0.625rem;
+	position:absolute;
+	right:0.3125rem;
+	bottom:0.3125rem;
+	box-sizing: border-box;
+	padding:0 0.15625rem;
+	display: flex;
+	align-items: center;
+	border:0.015625rem #ff2150 solid;
+	border-radius:3px;
+	background: #ff2150;
+}
+.collect>img{
+	display:inline-block;
+	width: 0.5rem;
+	height: 100%;
+}
+
+.collect>span{
+	display: block;
+	font-size: 0.3125rem;
+	color:#fff;
+	margin-left: 2px;
+	white-space:nowrap; 
+}
+
+.menu{
+	width: 100%;
+	height: 1.09375rem;
+	box-sizing: border-box;
+	border-bottom: 1px #eee solid;
+}
+
+.menu li{
+	width: 25%;
+	height:100%;
+	float: left;
+	display: flex;
+	align-items: center; 
+}
+
+.menu li a{
+	display:block;
+	width: 100%;
+	height:0.78125rem;
+	box-sizing: border-box;
+	border-left:1px #eee solid;
+	text-align: center;
+}
+
+.menu li a span{
+	display: block;
+	font-size: 0.34375rem;
+}
+.menu li a i{
+	color:#c2c2c2;
+	font-size: 0.21875rem;
+}
+
+.menu li:nth-child(1){
+	box-sizing: border-box;
+	border-bottom: 1px #ff2150 solid;
+}
+.menu li:nth-child(1) img{
+	display:block;
+	width: 0.390625rem;
+	height: 0.34375rem;
+	margin:0 auto;
+	margin-bottom: 5px;
+}
+.menu li:nth-child(1) span{
+	font-size: 0.21875rem;
+	color:#ff2150;
+}
+
+.menu li:nth-child(1) a{
+	border-left:none;
+}
+
+.evaluate{
+	width: 100%;
+	padding:0 3%;
+}
+
+.evaluate li{
+	width: 100%;
+	height:1.078125rem;
+	border-bottom: 0.015625rem #eee solid;
+}

@@ -1,0 +1,50 @@
+
+设置cookie
+
+	document.cookie = "key=name"
+
+查看所有cookie
+
+	可以使用 document.cookie
+	还可以用浏览器F12 application - cookie - 选择域名
+
+完整例子
+	<script>
+		document.cookie = "animateName=122366"; 
+
+		var arr = document.cookie.split(";");
+
+		var obj = {};
+
+		// e是value, i是下标
+		arr.forEach(function(e,i){
+			//console.log(e)
+
+			var arr2 = e.split("=");
+
+			//console.log(arr2)
+
+			obj[arr2[0].trim()] = arr2[1];
+		})
+	</script>
+
+
+cookie 和localstorage sessionstorage
+
+cookie 是保存在浏览器器里面的，并且会发送到服务器，
+存储的体积比较小 大概64K 默认的生命周期,关闭浏览器就消失
+
+localstorage和sessionstorage 保存在本地某个文件，不会发送到服务器。
+存储的体积大概是5M；
+
+localstorage 是永远存在
+
+sessionstorage 默认关闭浏览器就消失
+
+3个缓存的共同点： 都不能跨域！;
+
+两个封装的库：
+
+	localforage.js 调用的是 localstorage
+
+	如果想使用cookie 或者 sessionstorage 那么可以去github使用这个库： store.js
