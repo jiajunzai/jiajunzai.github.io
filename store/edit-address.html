@@ -36,11 +36,12 @@
 <script>
 
 (function(){
-
+	alert(111);
 	var input = document.getElementById("address");
 	var btn = document.getElementById("btn");
 
 	btn.addEventListener("touchstart",function(){
+		alert(222);
 		getLocationText(function(text){
 			input.value = text;
 		})
