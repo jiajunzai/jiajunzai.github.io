@@ -1,0 +1,165 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #f7f7f7;
+	position: relative;
+}
+
+header{
+	width: 100%;
+	height: 1.25rem;
+	position: fixed;
+	left:0;
+	top:0;
+	background: #fff;
+	text-align: center;
+	line-height: 1.25rem;
+	position: fixed;
+}
+
+header h3{
+	font-size: 0.46875rem;
+	color: #333333;
+}
+
+header a{
+	display:block;
+	width: 12px;
+	height:100%;
+	background: url("../img/icon__12.png") 0 center no-repeat;
+	background-size: 0.1875rem;
+	margin-left: 20px;
+	float:left;
+}
+
+.wrap{
+	width: 100%;
+	height: 100%;
+	margin-top: 1.25rem;
+	padding-bottom: 2.34375rem;
+    overflow-y: auto;
+}
+
+.top{
+	width: 100%;
+	height:3.75rem;
+	box-sizing: border-box;
+	padding:0 3%;
+	color:#fff;
+	background:url("../img/pic_4_05.png") center top no-repeat;
+	background-size:100%; 
+	position:relative;
+}
+
+.top >a{
+	display: block;
+	float: right;
+	font-size: 0.28125rem;
+	color:#fff;
+	margin-top: 0.3125rem;
+}
+
+.top h4{
+	position:relative;
+	left:0;
+	top:0.46875rem;
+	display: block;
+	font-size: 0.59375rem;
+}
+
+.top h4 i{
+	font-size: 0.3125rem
+}
+
+.top p{
+	position: relative;
+	left:0;
+	top:0.625rem;
+	font-size: 0.3125rem;
+}
+
+.fun{
+	width: 100%;
+	height:0.9375rem;
+	position: absolute;
+	bottom:0;
+	left:0;
+	background: rgba(0,0,0,0.5);
+}
+
+.fun a{
+	display: block;
+	width: 33.33333%;
+	height:100%;
+	float:left;
+	text-align: center;
+	line-height: 0.9375rem;
+	font-size: 0.375rem;
+	box-sizing: border-box;
+}
+
+.fun a:nth-child(1){
+	color:#fff;
+}
+
+.fun a:nth-child(2){
+	color:#999;
+	border-left:1px #999 solid;
+	border-right:1px #999 solid;
+}
+
+.fun a:nth-child(3){
+	color:#999;
+}
+
+.type{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 3%;
+	margin-top: 0.234375rem;
+	background: #fff;
+}
+
+.type li{
+	width: 100%;
+	height: 1.75rem;
+	box-sizing: border-box;
+	padding:0.25rem 0;
+	border-bottom:1px #eee solid;
+}
+
+.type li img{
+	width: 1.25rem;
+	float: left;
+	margin-right:0.3125rem;
+}
+
+.text{
+	width: 5.9375rem;
+	height: 100%;
+	overflow: hidden;
+	font-size: 0.3125rem;
+	float: left;
+}
+
+.text span{
+	color:#999;
+	padding:0.125rem 0.15625rem;
+	border:1px #ccc solid;
+	border-radius: 3px;
+	background: #eee;
+	line-height: 0.78125rem;
+	font-size: 0.3125rem
+
+}
+
+.number{
+	width: 1.71875rem;
+	height: 100%;
+	float:right;
+	text-align: right;
+}
+
+.number em{
+	line-height: 0.78125rem;
+}

@@ -194,3 +194,20 @@ header a{
 	background: url("../img/icon__11.png") center center no-repeat;
 	background-size: 100%;
 }
+
+footer{
+	width:100%;
+	height: 1.25rem;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	background: #ff2150;
+}
+
+footer a{
+	font-size: 0.46875rem;
+	color: #fff;
+	line-height: 1.25rem;
+}
